@@ -71,4 +71,4 @@ public class code {
 	}
 	
 }
-
+//Sunt smecher rau de tot
