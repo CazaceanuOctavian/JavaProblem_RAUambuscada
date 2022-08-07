@@ -52,6 +52,11 @@ public class code {
 			inf_limit=input.nextInt();
 			sup_limit=input.nextInt();
 			attack_dmg=input.nextInt();
+			if(inf_limit>sup_limit) {
+				int aux=inf_limit;
+				inf_limit=sup_limit;
+				sup_limit=aux;
+			}
 			for(int i=inf_limit; i<=sup_limit; i++) 
 				soldier_data[i]-=attack_dmg;
 			System.out.print("Attack #" + attack_number + ":");
@@ -71,4 +76,4 @@ public class code {
 	}
 	
 }
-//Sunt smecher rau de tot
+
